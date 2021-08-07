@@ -1,0 +1,30 @@
+.student{
+    border:2px black solid;
+    border-collapse: collapse;
+    width:100%;
+
+} 
+
+th,td{
+    border:2px black solid;
+    text-align: center;
+   
+}
+th{
+
+    background: midnightblue;
+    color:mintcream;
+    padding:5px;
+   
+}
+tr:nth-child(even){
+    background-color: rosybrown;
+
+}
+tr:nth-child(odd){
+    background-color: grey;
+
+}
+tr:hover{
+    background-color: seagreen;
+}
